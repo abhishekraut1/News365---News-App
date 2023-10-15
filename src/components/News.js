@@ -33,6 +33,7 @@ const News = (props)=>{
     useEffect(() => {
       document.title = `${capatalizeFirstLetter(props.category)} - NEWS365`;
       updateNews();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
     
 
